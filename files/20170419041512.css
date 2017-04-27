@@ -1,0 +1,290 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: url(../images/page_bg.png) repeat center center fixed;
+}
+
+ /*文字垂直置中*/ 
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+}
+
+ /*文字大小*/ 
+.text-size {
+  font-size: 24px;
+}
+
+/*文字垂直靠左*/ 
+.text-vleft {
+  font-size: 18px;
+  text-align: left;
+  vertical-align: middle;
+  color: #6f603e;
+}
+
+
+.logo-color{
+	color:#36C;
+}
+
+/* 第1個區塊用 */
+.about-brightness{
+	background: url(../images/bg2.jpg) no-repeat center center fixed;
+	display: inline-block;
+	height: 420px;
+	position: relative;
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+	-webkit-filter:brightness(.5);  
+}
+
+.about-bright{
+	background: url(../images/bg2.jpg) no-repeat center center fixed;
+	display: inline-block;
+	height: 420px;
+	position: relative;
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%; 
+}
+
+/* 文字大小 */
+.text-about h1 {
+  font-size: 400%;
+  font-weight: 80%;
+  float: right;
+  color: #FFF;
+  padding-top: 250px;
+  padding-right: 0;
+  padding-left: 40%;
+  padding-bottom: 0px;
+  padding-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0px;
+  margin-left: 40%;
+}
+	
+/* 第2個區塊用 */	
+.new-brightness{
+	background: url(../images/bg7.jpg) no-repeat center center fixed;
+	display: inline-block;
+	height: 350px;
+	position: relative;
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+	-webkit-filter:brightness(.5);  
+}
+
+.new-bright{
+	background: url(../images/bg7.jpg) no-repeat center center fixed;
+	display: inline-block;
+	height: 350px;
+	position: relative;
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+	
+}
+
+/* 文字大小 */
+.text-new h1 {
+	font-size: 400%;
+	font-weight: 700;
+	float: right;
+	color: #FFF;
+	padding-top: 200px;
+	padding-right: 0;
+	padding-bottom: 0px;
+	padding-left: 0;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0px;
+	margin-left: 0;
+}
+
+/* 第3個區塊用 */  
+.product-brightness{
+  background: url(../images/bg4.jpg) no-repeat center center fixed;
+  display: inline-block;
+  height: 350px;
+  position: relative;
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  -webkit-filter:brightness(.5);  
+}
+
+.product-bright{
+  background: url(../images/bg4.jpg) no-repeat center center fixed;
+  display: inline-block;
+  height: 350px;
+  position: relative;
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  
+}
+
+/* 第4個區塊用 */  
+.contact-brightness{
+  background: url(../images/bg6.jpg) no-repeat center center fixed;
+  display: inline-block;
+  height: 350px;
+  position: relative;
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  -webkit-filter:brightness(.5);  
+}
+
+.contact-bright{
+  background: url(../images/bg6.jpg) no-repeat center center fixed;
+  display: inline-block;
+  height: 350px;
+  position: relative;
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  
+}
+
+/* 圖片亮度 */
+.brightness{
+-webkit-filter:brightness(.5);
+}
+
+/* 拉大間距 */
+.top-bottom-pad {
+  padding: 70px 0;
+}
+
+/* 修正上方固定導航列 */
+body {
+  padding-top: 50px;
+}
+
+/* 背景顏色與字的顏色*/
+#services {
+  background: url(../images/page_bg.png) repeat center center fixed;
+  
+}
+
+/* 圖示字型的大小與外觀 */
+#services .glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+
+#a-pro{
+  background-color: #306d9f;
+  color: #ffffff;
+  text-decoration: none;	
+}
+
+/* 第4個區塊用 */
+#info {
+  /* background: url(../images/info.jpg) no-repeat center center fixed;*/
+  display: table;
+  height: 600px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* 第4個區塊中的新聞用 */
+#info .panel {
+  opacity: 0.85;
+}
+
+/* 第5個區塊中使用 */
+#goomap{
+    top: 35px;
+    right: 20px;
+   height:400px;
+   width: 600px;
+}
+
+/*頁腳使用的樣式*/
+footer {
+    background-color:#494949;
+    color:#ddd;
+    min-height:100px;
+    padding-top:20px;
+    padding-bottom:40px;
+    margin-top:80px;
+}
+
+/*回到上方區塊使用的樣式*/
+.scroll-top {
+   position:fixed;
+   bottom:0;
+   right:15px;
+   z-index:100;
+   font-size:24px;
+   margin-bottom:20px;
+   margin-right:10px;
+   background-color: #8f8f8f;
+}
+.scroll-top a:link, .scroll-top a:visited {
+   color:#777;
+}
+
+
+
+.logo{
+  position: absolute;  
+  height:auto;
+  width: 80%;
+  padding-top: 20%;
+  padding-left:20px;
+}
+
+#cont h1,h3{
+  
+  color:#fff;
+  padding-top: 30px;
+}
+
+#cont p{
+  padding-top: 20px;
+  color:#ddd;
+  font-size:18px;
+}
+
+#content{
+  background-color: #ffffff;
+}
+
+.panel{
+  padding-top: 15px;
+}
+
+.product-tab{
+  padding: 70px 0;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.nav-tabs{
+  font-size:18px;  
+}
+
+.navbar-brand{
+  padding-top: 0px;
+}
